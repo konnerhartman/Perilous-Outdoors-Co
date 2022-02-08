@@ -20,7 +20,7 @@ db.once('open', async () => {
       name: 'POCO. Classic Tee',
       description:
         'Lightweight, tri-blend material that deals great with moisture and only gets more comfortable with every wash!',
-      image: 'cookie-tin.jpg',
+      image: 'poco-classic-tee.jpeg',
       category: categories[0]._id,
       price: 10.00,
       quantity: 500
@@ -29,7 +29,7 @@ db.once('open', async () => {
       name: 'PO Flag Tee',
       description:
       'Lightweight, tri-blend material that deals great with moisture and only gets more comfortable with every wash!',
-      image: 'canned-coffee.jpg',
+      image: 'poco-flag-tee.jpeg',
       category: categories[0]._id,
       price: 18.00,
       quantity: 500
@@ -39,7 +39,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
       'Lightweight, tri-blend material that deals great with moisture and only gets more comfortable with every wash!',
-      image: 'toilet-paper.jpg',
+      image: 'poco-logo-tee.jpeg',
       price: 18.00,
       quantity: 20
     },
@@ -48,7 +48,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
       'Lightweight, tri-blend material that deals great with moisture and only gets more comfortable with every wash!',
-      image: 'soap.jpg',
+      image: 'poco-block-tee.png',
       price: 18.00,
       quantity: 50
     },
@@ -57,7 +57,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
       'Lightweight, tri-blend material that deals great with moisture and only gets more comfortable with every wash!',
-      image: 'wooden-spoons.jpg',
+      image: 'poco-block-long.png',
       price: 20.00,
       quantity: 100
     },
@@ -66,7 +66,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         '100% cotton to offer the most comfortable experience you’ll ever have in a hoodie!',
-      image: 'camera.jpg',
+      image: 'poco-hoodie.png',
       price: 30.00,
       quantity: 30
     },
@@ -75,7 +75,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description: 
         'Your new favorite hat! Light weight 100% cotton. One size fits most (strap back).',
-      image: 'tablet.jpg',
+      image: 'poco-hat.jpeg',
       price: 20.00,
       quantity: 30
     },
