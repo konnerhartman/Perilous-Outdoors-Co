@@ -7,6 +7,8 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
+import M from "materialize-css";
+import 'materialize-css/dist/css/materialize.min.css'
 
 import Home from './pages/Home';
 import About from './pages/About';
