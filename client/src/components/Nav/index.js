@@ -1,8 +1,9 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import { Navbar, Nav, Container, Modal, Tab } from 'react-bootstrap';
 
-function Nav() {
+function AppNav() {
 
   function showNavigation() {
     if (Auth.loggedIn()) {
@@ -50,17 +51,17 @@ function Nav() {
   }
 
   return (
-    <nav>
-      <div class="nav-wrapper">
-        <Link to="/">
+    <Navbar>
+      <Container fluid>
+        <Navbar.Brand as={Link} to='/'>
           Perilous Outdoors Co.
-        </Link>
-        <div  id="nav-mobile" class="right hide-on-med-and-down">
+        </Navbar.Brand>
+        <div className="collapse navbar-collapse" id="navbarNav">
           {showNavigation()}
         </div>
-      </div>
-    </nav>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Nav;
+export default AppNav;
