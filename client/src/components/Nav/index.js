@@ -50,17 +50,16 @@ function Nav() {
   }
 
   return (
-    <header className="flex-row px-1">
-      <h1>
+    <nav>
+      <div class="nav-wrapper">
         <Link to="/">
           Perilous Outdoors Co.
         </Link>
-      </h1>
-
-      <nav>
-        {showNavigation()}
-      </nav>
-    </header>
+        <div  id="nav-mobile" class="right hide-on-med-and-down">
+          {showNavigation()}
+        </div>
+      </div>
+    </nav>
   );
 }
 
