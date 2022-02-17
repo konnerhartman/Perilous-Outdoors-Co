@@ -83,10 +83,6 @@ header {
   background: var(--primary);
 }
 
-header a {
-  color: var(--light);
-}
-
 footer {
   background-color: #101606;
 }

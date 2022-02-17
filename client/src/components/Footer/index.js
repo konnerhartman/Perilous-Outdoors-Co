@@ -17,27 +17,27 @@ function AppFooter() {
         <Navbar bg='dark' className="fixed-bottom">
             <Container fluid>
                 <div className="col-md-4 d-flex align-items-center">
-                    <span className="text-muted">&copy; 2021 Company, Inc</span>
+                    <span className="text-white">&copy; 2017 Company, Inc</span>
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li className="ms-3">
-                        <a className="text-muted" href="mailto:perilousoutdoorsco@gmail.com">
+                        <a className="text-white" href="mailto:perilousoutdoorsco@gmail.com">
                         {email}
                         </a>
                     </li>
                     <li className="ms-3">
-                        <a className="text-muted" href="https://www.instagram.com/perilous.outdoors.co/">
+                        <a className="text-white" href="https://www.instagram.com/perilous.outdoors.co/">
                             {instagram}
                         </a>
                     </li>
                     <li className="ms-3">
-                        <a className="text-muted" href="https://www.facebook.com/perilous.outdoors.co">
+                        <a className="text-white" href="https://www.facebook.com/perilous.outdoors.co">
                             {facebook}
                         </a>
                     </li>
                     <li className="ms-3">
-                        <a className="text-muted" href="https://www.youtube.com/channel/UCTpqOpv18seMxizaQzLFZCw">
+                        <a className="text-white" href="https://www.youtube.com/channel/UCTpqOpv18seMxizaQzLFZCw">
                             {youtube}
                         </a>
                     </li>
