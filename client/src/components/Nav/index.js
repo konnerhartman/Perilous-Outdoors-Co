@@ -30,7 +30,7 @@ function AppNav() {
   }
 
   return (
-    <Navbar>
+    <Navbar bg='dark' variant='dark'>
       <Container fluid>
         <Navbar.Brand as={Link} to='/'>
           Perilous Outdoors Co.
