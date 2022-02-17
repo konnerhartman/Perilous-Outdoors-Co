@@ -1,7 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, Container, Modal, Tab } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function AppNav() {
 
@@ -21,10 +21,7 @@ function AppNav() {
     } else {
       return (
         <>
-          <Nav.Link to="/signup">
-            Signup
-          </Nav.Link>
-          <Nav.Link to="/login">
+          <Nav.Link as={Link} to="/login">
             Login
           </Nav.Link>
         </>
@@ -38,11 +35,11 @@ function AppNav() {
         <Navbar.Brand as={Link} to='/'>
           Perilous Outdoors Co.
         </Navbar.Brand>
-        <Nav className="collapse navbar-collapse" id="navbarNav">
-          <Nav.Link to="/about">
+        <Nav className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+          <Nav.Link as={Link} to="/about">
             About
           </Nav.Link>
-          <Nav.Link to="/shop">
+          <Nav.Link as={Link} to="/shop">
             Shop
           </Nav.Link>
           {showNavigation()}
