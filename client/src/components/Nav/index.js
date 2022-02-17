@@ -8,44 +8,26 @@ function AppNav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/orderHistory">
-              Order History
-            </Link>
-          </li>
-          <li className="mx-1">
-            {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-            <a href="/" onClick={() => Auth.logout()}>
-              Logout
-            </a>
-          </li>
-        </ul>
+        <>
+          <Nav.Link to="/orderHistory">
+            Order History
+          </Nav.Link>
+          {/* this is not using the Link component to logout or user and then refresh the application to the start */}
+          <Nav.Link onClick={Auth.logout}>
+            Logout
+          </Nav.Link>
+        </>
       );
     } else {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/about">
-              About
-            </Link>
-          </li>
-          <li className="mx-1">
-            <Link to="/shop">
-              Shop
-            </Link>
-          </li>
-          <li className="mx-1">
-            <Link to="/signup">
-              Signup
-            </Link>
-          </li>
-          <li className="mx-1">
-            <Link to="/login">
-              Login
-            </Link>
-          </li>
-        </ul>
+        <>
+          <Nav.Link to="/signup">
+            Signup
+          </Nav.Link>
+          <Nav.Link to="/login">
+            Login
+          </Nav.Link>
+        </>
       );
     }
   }
@@ -56,9 +38,15 @@ function AppNav() {
         <Navbar.Brand as={Link} to='/'>
           Perilous Outdoors Co.
         </Navbar.Brand>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <Nav className="collapse navbar-collapse" id="navbarNav">
+          <Nav.Link to="/about">
+            About
+          </Nav.Link>
+          <Nav.Link to="/shop">
+            Shop
+          </Nav.Link>
           {showNavigation()}
-        </div>
+        </Nav>
       </Container>
     </Navbar>
   );
