@@ -5,12 +5,16 @@ const Home = () => {
   return (
     <div>
       <div className="jumbotron">
-        <h2 className="text-center">Rethinking the Outdoors | Renovating the Gear</h2>
-        <button>
-          <Link to="/shop">
-            Shop
-          </Link>
-        </button>
+        <div id="vertical-center" className="center">
+          <h2 id="jumText">Rethinking the Outdoors | Renovating the Gear</h2>
+          <div className="text-center">
+          <button>
+            <Link to="/shop">
+              Shop
+            </Link>
+          </button>
+          </div>
+        </div>
       </div>
     </div>
   );
