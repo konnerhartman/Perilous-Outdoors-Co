@@ -42,25 +42,6 @@ function AppFooter() {
                         </a>
                     </li>
                 </ul>
-
-                {/* <div className="row">
-                    <div className="col l6 m6 s6 center-align">
-                        
-                    </div>
-                    <div className="col l6 m6 s6 center-align">
-                        <ul>
-                            <li>
-                                <a href="mailto:perilousoutdoorsco@gmail.com">Email</a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/perilous.outdoors.co">Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/perilous.outdoors.co/">Instagram</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div> */}
             </Container>
         </Navbar>
     );
