@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div>
       <div className="jumbotron">
-        <h2>Rethinking the Outdoors | Renovating the Gear</h2>
+        <h2 className="text-center">Rethinking the Outdoors | Renovating the Gear</h2>
         <button>
           <Link to="/shop">
-              Shop
-            </Link>
-          </button>
+            Shop
+          </Link>
+        </button>
       </div>
     </div>
   );
