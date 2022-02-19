@@ -14,7 +14,7 @@ const email = <FontAwesomeIcon icon={faEnvelope} />
 
 function AppFooter() {
     return (
-        <Navbar bg='dark' className="fixed-bottom">
+        <Navbar bg='dark' className="sticky-bottom">
             <Container fluid>
                 <div className="col-md-4 d-flex align-items-center">
                     <span className="text-white">&copy; 2017 Company, Inc</span>
