@@ -146,6 +146,11 @@ input:focus {
   width: auto;
 }
 
+#jumbo-text {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
 #home-button {
   background-color: #101606;
   border-radius: 8px;
