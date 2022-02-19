@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faYoutube, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
@@ -16,7 +15,7 @@ function AppFooter() {
     return (
         <Navbar bg='dark' className="sticky-bottom">
             <Container fluid>
-                <div className="col-md-4 d-flex align-items-center">
+                <div className="col-md-4">
                     <span className="text-white">&copy; 2017 Company, Inc</span>
                 </div>
 

@@ -5,7 +5,7 @@ import AboutPoco from "../components/About";
 
 const Home = () => {
   return (
-    <div className="containers">
+    <div>
       <div className="jumbotron text-center">
         <div id="vertical-center" className="center">
           <div id="jumbo-text">
@@ -21,7 +21,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      < AboutPoco />
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6">
+            < AboutPoco />
+          </div>
+          <div className="col-lg-6">
+            Instagram API goes here
+          </div>
+      </div>
+      </div>
     </div>
   );
 };
