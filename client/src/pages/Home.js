@@ -10,8 +10,8 @@ const Home = () => {
         <div id="vertical-center" className="center">
           <h2 id="jumText">Rethinking the Outdoors | Renovating the Gear</h2>
           <div className="text-center">
-            <button>
-              <Link to="/shop">
+            <button id="home-button">
+              <Link id="home-button-text" to="/shop">
                 Shop
               </Link>
             </button>
