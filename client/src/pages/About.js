@@ -12,11 +12,17 @@ const About = () => {
         <div>
             <h2>Meet The Founders</h2>
             <div className="row">
-                <div className="col-6">
-                  <img src={Konner} alt="Konner"></img>
+                <div className="col-6 prof-cont">
+                  <img src={Konner} alt="Konner" className="prof-image"></img>
+                  <div className="overlay">
+                    <div className="prof-text"></div>
+                  </div>
                 </div>
-                <div className="col-6">
-                <img src={Mike} alt="Mike"></img>
+                <div className="col-6 prof-cont">
+                  <img src={Mike} alt="Mike" className="prof-image"></img>
+                  <div className="overlay">
+                    <div className="prof-text"></div>
+                  </div>  
                 </div>
             </div>
         </div>
