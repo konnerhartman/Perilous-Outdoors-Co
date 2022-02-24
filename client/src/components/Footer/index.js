@@ -16,7 +16,7 @@ function AppFooter() {
         <Navbar  className="nav sticky-bottom">
             <Container fluid>
                 <div className="col-md-4">
-                    <span className="text-dark">&copy; 2017 Company, Inc</span>
+                    <span className="text-dark">&copy; 2022 Company, Inc</span>
                 </div>
 
                 <ul className=" col-md-4 justify-content-end list-unstyled d-flex">

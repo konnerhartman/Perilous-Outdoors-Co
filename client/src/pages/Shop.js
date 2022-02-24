@@ -5,10 +5,12 @@ import Cart from "../components/Cart";
 
 const Home = () => {
   return (
-    <div className="container">
-      <CategoryMenu />
-      <ProductList />
-      <Cart />
+    <div className="body">
+      <div className="container">
+        <CategoryMenu />
+        <ProductList />
+        <Cart />
+      </div>
     </div>
   );
 };

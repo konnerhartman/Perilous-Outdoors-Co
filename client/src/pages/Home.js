@@ -21,14 +21,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
-            < AboutPoco />
-          </div>
-          <div className="col-lg-6">
-            Instagram API goes here
-          </div>
+      <div className="body">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              < AboutPoco />
+            </div>
+            <div className="col-lg-6">
+              Instagram API goes here
+            </div>
+        </div>
       </div>
       </div>
     </div>
