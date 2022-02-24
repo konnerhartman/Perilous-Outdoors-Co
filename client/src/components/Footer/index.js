@@ -13,30 +13,30 @@ const email = <FontAwesomeIcon icon={faEnvelope} />
 
 function AppFooter() {
     return (
-        <Navbar bg='dark' className="sticky-bottom">
+        <Navbar  className="nav sticky-bottom">
             <Container fluid>
                 <div className="col-md-4">
-                    <span className="text-white">&copy; 2017 Company, Inc</span>
+                    <span className="text-dark">&copy; 2017 Company, Inc</span>
                 </div>
 
-                <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <ul className=" col-md-4 justify-content-end list-unstyled d-flex">
                     <li className="ms-3">
-                        <a className="text-white" href="mailto:perilousoutdoorsco@gmail.com">
+                        <a className="text-dark" href="mailto:perilousoutdoorsco@gmail.com">
                         {email}
                         </a>
                     </li>
                     <li className="ms-3">
-                        <a className="text-white" href="https://www.instagram.com/perilous.outdoors.co/">
+                        <a className="text-dark" href="https://www.instagram.com/perilous.outdoors.co/">
                             {instagram}
                         </a>
                     </li>
                     <li className="ms-3">
-                        <a className="text-white" href="https://www.facebook.com/perilous.outdoors.co">
+                        <a className="text-dark" href="https://www.facebook.com/perilous.outdoors.co">
                             {facebook}
                         </a>
                     </li>
                     <li className="ms-3">
-                        <a className="text-white" href="https://www.youtube.com/channel/UCTpqOpv18seMxizaQzLFZCw">
+                        <a className="text-dark" href="https://www.youtube.com/channel/UCTpqOpv18seMxizaQzLFZCw">
                             {youtube}
                         </a>
                     </li>
