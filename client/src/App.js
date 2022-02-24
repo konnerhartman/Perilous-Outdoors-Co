@@ -47,7 +47,7 @@ function App() {
       <Router>
         <div>
           <StoreProvider>
-            <Nav />
+            <Nav className="nav" />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
