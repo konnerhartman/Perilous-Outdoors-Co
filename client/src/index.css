@@ -46,6 +46,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 h3 {
@@ -107,6 +109,8 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 span[role="img"] {
